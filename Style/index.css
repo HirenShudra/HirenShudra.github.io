@@ -133,7 +133,7 @@ body {
 
 /* hero section css start */
 .hero {
-  padding: 40px 0;
+  padding: 0 0 40px 0;
   width: 100%;
   background-color: #7395ae;
 }
@@ -141,14 +141,11 @@ body {
   color: #eae7dc;
   background-color: transparent;
   padding: 5px 8px;
-  border-radius: 5px;
-  width: 100%;
   text-align: center;
-  margin: 20px auto 40px auto;
+  margin: 0 0 40px 0;
   border-bottom: 5px solid #eae7dc;
   font-size: 30px;
   font-weight: 700;
-  z-index: 50;
 }
 .hero_section {
   width: 100%;
@@ -240,7 +237,7 @@ body {
 
 /* skills section css start */
 .skill {
-  padding: 40px 0;
+  padding: 0 0 40px 0;
   width: 100%;
   background-color: #b1a296;
 }
@@ -249,14 +246,12 @@ body {
   color: #eae7dc;
   padding: 5px 8px;
   background-color: transparent;
-  border-radius: 5px;
-  width: 100%;
   text-align: center;
-  margin: 20px auto 20px auto;
+  margin: 0 0 20px 0;
   border-bottom: 5px solid #eae7dc;
   font-size: 30px;
   font-weight: 700;
-  z-index: 50;
+
 }
 .skill_set {
   display: grid;
@@ -293,20 +288,18 @@ body {
 .project_section {
   width: 100%;
   background-color: #7395ae;
-  padding: 40px 0;
+  padding: 0 0 40px 0;
+  
 }
 .project_section > h1 {
   color: #eae7dc;
   background-color: transparent;
   padding: 5px 8px;
-  border-radius: 5px;
-  width: 100%;
   text-align: center;
-  margin: 20px auto 20px auto;
   border-bottom: 5px solid #eae7dc;
   font-size: 30px;
   font-weight: 700;
-  z-index: 50;
+  margin: 0 0 30px 0;
 }
 .projects {
   width: 100%;
@@ -398,3 +391,123 @@ body {
 }
 
 /* project section css end */
+
+/* contact section css start */
+.contact_section{
+  width: 100%;
+  background-color: #b1a296;
+  padding: 0 0 40px 0;
+}
+.contact_section > h1{
+  color: #eae7dc;
+  background-color: transparent;
+  padding: 5px 8px;
+  text-align: center;
+  border-bottom: 5px solid #eae7dc;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 40px 0;
+}
+.contact{
+  width: 80%;
+  margin: auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact_links{
+  width: 45%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 15px;
+  padding: 15px;
+}
+.contact_links > div{
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border: 2px solid #eae7dc;
+  border-radius: 5px;
+  transition: all 0.9s;
+}
+.contact_links > div:hover{
+  transform: scale(1.1);
+}
+
+.contact_links > div > span, .contact_links > div > span > i, .contact_links > div > a{
+  background-color: transparent;
+}
+.contact_links > div > span > i{
+  font-weight: 900;
+  font-size: 25px;
+  margin-right: 10px;
+  color: #042b48;
+}
+.contact_links > div > a{
+  color: #eae7dc;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.contact_form{
+  background-color: transparent;
+  width: 50%;
+  padding: 15px;
+}
+.contact_form > form{
+  background-color: transparent;
+}
+#name, #mail, #subject{
+  width: 100%;
+  padding: 15px 8px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 10px 0;
+  background-color: #7395ae;
+  color: #557a95;
+  font-weight: 700;
+  transition: all 0.6s;
+}
+::placeholder{
+  color: #042b48;
+  font-weight: 500;
+  opacity: 0.8;
+}
+#submit{
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  color: #eae7dc;
+  letter-spacing: 2;
+  transition: all 0.4s ease-in-out;
+}
+#submit:hover{
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+#name:focus, #mail:focus, #subject:focus{
+  border: 1px solid #557a95;
+  background-color: #e1e1dc;
+  color: #557a95;
+}
+.contact_section > p{
+  background-color: transparent;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  width: 70%;
+  margin: 10px auto ;
+  color: #557a95;
+  background-color: white;
+  padding: 6px 8px;
+}
+/* contact section css end */

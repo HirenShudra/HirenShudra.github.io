@@ -90,6 +90,18 @@
       padding: 3px 5px;
     }
     /* project css end */
+
+    /* contact section css start */
+  .contact{
+    flex-wrap: wrap;
+  }
+  .contact_links{
+    width: 100%;
+  }
+  .contact_form{
+    width: 100%;
+  }
+  /* contact section css end */
 }
 
 @media (min-width: 321px) and (max-width: 575px) {
@@ -115,7 +127,7 @@
     font-size: 25px;
     font-weight: 700;
   }
-
+  
   .picture {
     width: 90%;
   }
@@ -142,6 +154,10 @@
   .resume {
     margin-top: 15px;
   }
+  /* hero section css end */
+
+  /* skill section css start */
+
   .skill > h1 {
     font-size: 25px;
   }
@@ -156,10 +172,13 @@
     height: 80px;
     margin: auto;
   }
-   /* project css start */
+  
+  /* skill section css end */
+
+  /* project css start */
    .projects{
-    flex-wrap: wrap;
-    gap: 20px;
+     flex-wrap: wrap;
+     gap: 20px;
   }
   .projects > div{
     width: 80%;
@@ -172,7 +191,18 @@
     font-size: 15px;
   }
   /* project css end */
-  /* hero section css end */
+
+  /* contact section css start */
+  .contact{
+    flex-wrap: wrap;
+  }
+  .contact_links{
+    width: 90%;
+  }
+  .contact_form{
+    width: 90%;
+  }
+  /* contact section css end */
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -254,6 +284,20 @@
     font-size: 15px;
   }
   /* project css end */
+
+  /* contact css start */
+
+  .contact{
+    flex-wrap: wrap;
+  }
+  .contact_links{
+    width: 80%;
+  }
+  .contact_form{
+    width: 80%;
+  }
+
+  /* contact css end */
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -330,4 +374,18 @@
   }
 
   /* project section end */
+
+  /* contact section start */
+
+  .contact{
+    flex-wrap: wrap;
+  }
+  .contact_links{
+    width: 80%;
+  }
+  .contact_form{
+    width: 80%;
+  }
+
+  /* contact section end */
 }
