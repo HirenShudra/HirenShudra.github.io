@@ -1,4 +1,4 @@
-@media (min-width: 200px) and (max-width: 320px) {
+@media (min-width: 200px) and (max-width: 320px) {  
   /* Responsive header css start */
   .header {
     display: none;
@@ -63,6 +63,33 @@
     margin: auto;
   }
   /* hero section css end */
+
+     /* project css start */
+     .projects{
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .projects > div{
+      width: 80%;
+    }
+    .projects > div > h3{
+      font-size: 17px;
+      width: 150px;
+    }
+    .projects > div > p{
+      font-size: 15px;
+    }
+    .projects > div > .tech_stack{
+      flex-wrap: wrap;
+    }
+    .projects > div > .tech_stack > p {
+      font-size: 12px;
+    }
+    .projects > div > .project_links > a{
+      font-size: 14px;
+      padding: 3px 5px;
+    }
+    /* project css end */
 }
 
 @media (min-width: 321px) and (max-width: 575px) {
@@ -129,6 +156,22 @@
     height: 80px;
     margin: auto;
   }
+   /* project css start */
+   .projects{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .projects > div{
+    width: 80%;
+  }
+  .projects > div > h3{
+    font-size: 17px;
+    width: 150px;
+  }
+  .projects > div > p{
+    font-size: 15px;
+  }
+  /* project css end */
   /* hero section css end */
 }
 
@@ -194,6 +237,23 @@
     margin: auto;
   }
   /* hero section css end */
+
+  /* project css start */
+  .projects{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .projects > div{
+    width: 80%;
+  }
+  .projects > div > h3{
+    font-size: 17px;
+    width: 150px;
+  }
+  .projects > div > p{
+    font-size: 15px;
+  }
+  /* project css end */
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -236,6 +296,9 @@
   .resume {
     margin-top: 15px;
   }
+  /* hero section css end */
+
+  /* skill section start */
   .skill > h1 {
     font-size: 27px;
   }
@@ -251,5 +314,20 @@
     margin: auto;
   }
 
-  /* hero section css end */
+  /* skill section end */
+
+  /* project section start */
+
+  .projects > div{
+    width: 45%;
+  }
+  .projects > div > h3{
+    font-size: 20px;
+    width: 160px;
+  }
+  .projects > div > p{
+    font-size: 15px;
+  }
+
+  /* project section end */
 }
