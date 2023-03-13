@@ -28,3 +28,22 @@ cross.addEventListener("click", function(){
     let navbar = document.querySelector(".vertical_navbar");
     navbar.style.display = "none";
 })
+
+
+
+function handleSubmit(){
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "shudrahiren8@gmail.com",
+        Password : "",
+        To : 'shudrahiren8@gmail.com',
+        From : document.getElementById("mail").value,
+        Subject : document.getElementById("subject").value,
+        Body : "Name : " + document.getElementById("name").value
+                + "<br> Email : " + document.getElementById("mail").value
+                + "<br> Message is : " + document.getElementById("subject").value
+    }).then(
+      message => alert("Mail sent successfully!")
+    );
+    
+}

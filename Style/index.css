@@ -251,36 +251,45 @@ body {
   border-bottom: 5px solid #eae7dc;
   font-size: 30px;
   font-weight: 700;
-
 }
+
 .skill_set {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  width: 35%;
-  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 45px;
+  width: 70%;
+  margin: 40px auto;
   padding: 10px;
   background-color: transparent;
+  justify-content: space-between;
 }
 .skill_set > div {
   padding: 10px;
-  width: 100px;
-  height: 100px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
   background-color: #7395ae;
-  transition: all 0.1s;
+  transition: all 0.6s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .skill_set > div:hover {
   background-color: #557a95;
+  transform: scale(1.1);
 }
 .skill_set > div > img {
   width: 100%;
-  height: 100%;
   border-radius: 10px;
   background-color: white;
 }
-
+.skill_set > div > p{
+  text-align: center;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 700;
+  color: #eae7dc;
+  padding: 8px 0 0 0;
+}
 /* skills section css end */
 
 /* project section css start */
@@ -504,10 +513,9 @@ body {
   text-align: center;
   font-size: 18px;
   font-weight: 700;
-  width: 70%;
   margin: 10px auto ;
-  color: #557a95;
-  background-color: white;
+  color: #e1e1dc;
+  background-color: #504e4e;
   padding: 6px 8px;
 }
 /* contact section css end */
