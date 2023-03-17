@@ -12,6 +12,21 @@
   }
   /* Responsive header css end */
 
+      /* home section css start */
+      .home_section{
+        padding: 80px 0;
+      }
+      .myself > p{
+        font-size: 15px;
+      }
+      .myself > h1{
+        font-size: 30px;
+      }
+      .myself > h2{
+        font-size: 20px;
+      }
+      /* home section css end */
+
   /* hero section css start */
   .hero_section {
     flex-direction: column;
@@ -132,6 +147,21 @@
   }
   /* Responsive header css end */
 
+    /* home section css start */
+    .home_section{
+      padding: 80px 0;
+    }
+    .myself > p{
+      font-size: 20px;
+    }
+    .myself > h1{
+      font-size: 40px;
+    }
+    .myself > h2{
+      font-size: 30px;
+    }
+    /* home section css end */
+
   /* hero section css start */
   .hero_section {
     flex-direction: column;
@@ -224,6 +254,18 @@
   }
   /* Responsive header css end */
 
+  /* home section css start */
+  .home_section{
+    padding: 80px 0;
+  }
+  .myself > h1{
+    font-size: 50px;
+  }
+  .myself > h2{
+    font-size: 35px;
+  }
+  /* home section css end */
+
   /* hero section css start */
   .hero_section {
     flex-direction: column;
@@ -312,6 +354,12 @@
     font-size: 15px;
   }
   /* Responsive header css end */
+
+  /* home section css start */
+  .home_section{
+    padding: 105px 0;
+  }
+  /* home section css end */
 
   /* hero section css start */
   .hero > h1 {

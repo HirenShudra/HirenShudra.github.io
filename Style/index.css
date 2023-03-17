@@ -132,6 +132,42 @@ body {
 /* header css end */
 
 /* hero section css start */
+.home_section{
+  width: 100%;
+  background-color: #b1a296;
+  padding: 210px 0;
+}
+.myself{
+  background-color: transparent;
+  text-align: center;
+}
+.myself > p{
+  background-color: transparent;
+  padding: 0 0 8px 0;
+  color: #eae7dc;
+  font-size: 22px;
+  font-weight: 600;
+}
+.myself > h1{
+  background-color: transparent;
+  color: #eae7dc;
+  font-size: 60px;
+  padding: 0 0 10px 0;
+  font-weight: 900;
+}
+.myself > h1::first-letter{
+  color: #188f83;
+}
+.myself > h2{
+  color: #eae7dc;
+  background-color: transparent;
+  font-size: 45px;
+  text-decoration: underline;
+  font-weight: 700;
+}
+/* hero section css end */
+
+/* hero section css start */
 .hero {
   padding: 0 0 40px 0;
   width: 100%;
