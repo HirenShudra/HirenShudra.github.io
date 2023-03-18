@@ -1,4 +1,4 @@
-@media (min-width: 200px) and (max-width: 320px) {  
+@media (max-width: 320px) {  
   /* Responsive header css start */
   .header {
     display: none;

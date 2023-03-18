@@ -92,7 +92,7 @@ body {
   left: 0;
 }
 .links {
-  margin: 45px;
+  margin: 45px 0;
   text-align: center;
   list-style: none;
 }
@@ -355,7 +355,7 @@ body {
   
 }
 .projects > div {
-  width: 35%;
+  width: 40%;
   background-color: #557a95;
   border-radius: 10px; 
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
